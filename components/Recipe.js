@@ -2,8 +2,8 @@
 
 export default function Recipe({ title, cuisineType, image, ingredients }) {
   return (
-    <div className="flex justify-center p-10">
-      <div className="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+    <div className="p-10 ">
+      <div className="max-w-sm rounded-lg  shadow-lg dark:bg-neutral-700">
         <img className="rounded-t-lg w-full" src={image} alt="" />
 
         <div className="p-6 items-center">

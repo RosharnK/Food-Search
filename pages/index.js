@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import Hero from "@/components/hero";
+import Rdev from "@/components/rdev";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Rdev />
       </main>
     </>
   );

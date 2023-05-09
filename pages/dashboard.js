@@ -46,7 +46,7 @@ export default function dashboard() {
   };
 
   return (
-    <div className="bg-black w-screen h-full">
+    <div className="bg-violet-400 w-screen h-full">
       <div className="flex justify-center">
         <div className="mb-3 xl:w-96">
           <div className="relative mb-4 p-6 flex w-full flex-wrap items-stretch">
@@ -54,7 +54,7 @@ export default function dashboard() {
               type="search"
               value={search}
               onChange={updateSearch}
-              className="relative m-0 block w-[1%] min-w-0 flex-auto rounded border border-solid border-white bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary-600 focus:text-white focus:shadow-te-primary focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200"
+              className="relative m-0 block w-[1%] min-w-0 flex-auto rounded border border-solid bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal  outline-none transition duration-300 ease-in-out focus:border-primary-600 focus:text-white  focus:outline-none border-black  text-black dark:placeholder:text-neutral-200"
               placeholder="Search"
               aria-label="Search"
               aria-describedby="button-addon2"

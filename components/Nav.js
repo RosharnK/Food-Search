@@ -7,16 +7,16 @@ export default function Nav() {
   const [user, loading] = useAuthState(auth);
   console.log(user);
   return (
-    <nav className="flex justify-between items-center bg-white py-4 px-8">
+    <nav className="flex justify-between items-center bg-gray-100 py-4 px-8">
       <Link href="/">
-        <button className="text-lg font-medium italic text-black ">
-          FOOD-SEARCH
+        <button className="text-lg font-bold italic text-black ">
+          Food😋Search
         </button>
       </Link>
       <ul className="flex items-center gap-10">
         {!user && (
           <Link href={"/auth/login"} legacyBehavior>
-            <a className="py-2 px-4 text-sm bg-red-600 text-white rounded-lg font-medium ml-8">
+            <a className="py-2 px-4 text-sm bg-blue-400 text-white rounded-lg font-medium ml-8">
               Sign In
             </a>
           </Link>
