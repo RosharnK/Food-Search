@@ -7,7 +7,7 @@ import {
 
 export default function Rdev() {
   return (
-    <div className=" px-14 py-6 bg-black  md:flex  lg:items-center sm:justify-between">
+    <div className=" px-14 py-4 bg-black  md:flex  lg:items-center sm:justify-between">
       <span className="text-sm text-white sm:text-center">
         © 2023 <a href="">Rdev</a>. All Rights Reserved.
       </span>
